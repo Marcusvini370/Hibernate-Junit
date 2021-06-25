@@ -177,9 +177,8 @@ function limparform() {
 		elementos[p].value = '';
 		
 	}
-	
-	
 }
+
 </script>
 
 </body>
