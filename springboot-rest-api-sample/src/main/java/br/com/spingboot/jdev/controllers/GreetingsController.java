@@ -17,7 +17,7 @@ import br.com.spingboot.jdev.repository.UsuarioRepository;
 
 	
 	@RestController
-	@RequestMapping("/greetings")
+	@RequestMapping("/greetings");
 	public class GreetingsController {
 		
 		@Autowired /*IC / CD OU CDI - Injeção de dependencia */
