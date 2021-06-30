@@ -82,7 +82,7 @@ import br.com.spingboot.jdev.repository.UsuarioRepository;
 	    	
 	    	@GetMapping(value = "buscauserid") /* mapeia a url */
 	    	@ResponseBody /* Descrição da resposta */
-	    	public ResponseEntity<Usuario> buscauserid (@RequestParam(name = "idUser") Long idUser){ /* Recebe os dados para consultar*/
+	    	public ResponseEntity<Usuario> buscauserid (@RequestParam (name = "idUser") Long idUser){ /* Recebe os dados para consultar*/
 	    		
 	    		 Usuario usuario = usuarioRepository.findById(idUser).get();
 	    		
